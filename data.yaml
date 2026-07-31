@@ -1,0 +1,7 @@
+path: D:/traffic_project
+train: train/images
+val: valid/images
+test: test/images
+
+nc: 3
+names: ['car', 'motorcycle', 'license_plate']
