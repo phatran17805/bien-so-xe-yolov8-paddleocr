@@ -51,6 +51,7 @@ pip install -r requirements.txt
 
 - **Cấu trúc thư mục dự án:**
 
+```text
 ├── weights/
 │   └── best.pt               # Trọng số YOLOv8n đã huấn luyện tốt nhất
 ├── train/
@@ -70,6 +71,7 @@ pip install -r requirements.txt
 ├── benchmark.py              # Script đánh giá hiệu năng và bấm giờ End-to-End
 ├── requirements.txt          # Danh sách thư viện cần thiết
 └── README.md                 # Tài liệu hướng dẫn
+```
 
 - **Quản lý Trọng số:**
 Trọng số tốt nhất sau khi huấn luyện best.pt được lưu trữ tại thư mục weights/best.pt.
