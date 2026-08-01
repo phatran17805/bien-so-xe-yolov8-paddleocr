@@ -1,7 +1,7 @@
 from ultralytics import YOLO
 
 # Load mô hình đã được huấn luyện thành công
-model = YOLO('runs/detect/traffic_model/weights/best.pt')
+model = YOLO('weights/best.pt')
 
 # Chạy dự đoán trên tập ảnh test 
 results = model.predict(
