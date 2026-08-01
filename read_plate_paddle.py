@@ -23,7 +23,7 @@ ocr = PaddleOCR(
 )
 
 # 2. Load mô hình YOLOv8 
-model = YOLO('runs/detect/traffic_model/weights/best.pt')
+model = YOLO('weights/best.pt')
 
 input_dir = 'test/images'
 output_dir = 'runs/detect/paddle_results'
