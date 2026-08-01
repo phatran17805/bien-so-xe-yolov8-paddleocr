@@ -81,21 +81,22 @@ File trọng số mặc định yolov8n.pt sẽ tự động được tải về
 
 ## Lệnh chạy huấn luyện (Train) và đánh giá (Evaluation):
 - **Chạy script huấn luyện mô hình YOLOv8n trên tập dữ liệu đã chuẩn bị:**
-
+```bash
 python train.py
-
+```
 - **Đánh giá mô hình YOLOv8:**
-
+```bash
 python val.py
-
+```
 - **Thử nghiệm dự đoán và vẽ khung trên tập test:**
-
+```bash
 python predict.py
-
+```
 - **Đo độ trễ hệ thống:**
-
+```bash
 python benchmark.py
-
+```
 - **Chạy thử nghiệm nhận diện ký tự OCR trên tập test:**
-
+```bash
 python read_plate_paddle.py
+```
