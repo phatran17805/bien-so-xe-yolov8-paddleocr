@@ -7,7 +7,7 @@ from ultralytics import YOLO
 from paddleocr import PaddleOCR
 import re
 
-WEIGHTS_PATH = r"runs\detect\traffic_model\weights\best.pt"
+WEIGHTS_PATH = r"weights/best.pt"
 TEST_IMAGES_DIR = r'test\images'  
 
 # Khởi tạo mô hình
