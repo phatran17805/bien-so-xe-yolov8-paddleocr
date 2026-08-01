@@ -1,5 +1,5 @@
-ultralytics
-paddlepaddle
-paddleocr
-opencv-python
-numpy
+numpy==1.26.4
+opencv-python==4.6.0.66
+paddlepaddle==2.6.2
+paddleocr==2.7.3
+ultralytics==8.4.105
