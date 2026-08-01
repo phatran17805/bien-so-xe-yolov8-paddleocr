@@ -55,14 +55,14 @@ pip install -r requirements.txt
 ├── weights/
 │   └── best.pt               # Trọng số YOLOv8n đã huấn luyện tốt nhất
 ├── train/
-│   ├── images/           # Ảnh huấn luyện (400 ảnh)
-│   └── labels/           # Nhãn huấn luyện (.txt format YOLO)
+│   ├── images/               # Ảnh huấn luyện (400 ảnh)
+│   └── labels/               # Nhãn huấn luyện (.txt format YOLO)
 ├── val/
-│   ├── images/           # Ảnh kiểm định (50 ảnh)
-│   └── labels/           # Nhãn kiểm định (.txt format YOLO)
+│   ├── images/               # Ảnh kiểm định (50 ảnh)
+│   └── labels/               # Nhãn kiểm định (.txt format YOLO)
 └── test/
-    ├── images/           # Ảnh kiểm thử (50 ảnh)
-    └── labels/           # Nhãn kiểm thử (.txt format YOLO)
+    ├── images/               # Ảnh kiểm thử (50 ảnh)
+    └── labels/               # Nhãn kiểm thử (.txt format YOLO)
 ├── data.yaml                 # File khai báo tập dữ liệu và các lớp
 ├── read_plate_paddle.py      # Module trích xuất và đọc ký tự OCR
 ├── train.py                  # Script huấn luyện mô hình YOLOv8n
