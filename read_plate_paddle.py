@@ -70,7 +70,7 @@ os.makedirs(output_dir, exist_ok=True)
 
 img_paths = glob.glob(os.path.join(input_dir, '*.[jJ][pP][gG]')) + glob.glob(os.path.join(input_dir, '*.[pP][nN][gG]'))
 
-print(f"🚀 Bắt đầu nhận diện trên {len(img_paths)} ảnh...\n")
+print(f"Bắt đầu nhận diện trên {len(img_paths)} ảnh...\n")
 
 detected_count = 0
 
